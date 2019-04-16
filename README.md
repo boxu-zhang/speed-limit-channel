@@ -2,7 +2,7 @@
 This is a small library for speed limit data transporting. Currently, it limits the write speed. 
 
 ## Example
-`go
+```go
 // 100 means the speed is 100 msg/s 
 ch, _ := SpeedLimitChannelOpen(100)
 
@@ -19,4 +19,4 @@ go func() {
       // process the message
    }
 }
-`
+```
