@@ -1,4 +1,4 @@
-package main
+package speed_limit_channel
 
 import (
 	"sync/atomic"

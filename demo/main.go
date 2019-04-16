@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	slc "github.com/boxu-zhang/speed-limit-channel"
 	"time"
 )
 
 func main() {
 	fmt.Println("test SpeedLimitChannel")
 
-	ch, _ := SpeedLimitChannelOpen(100)
+	ch, _ := slc.SpeedLimitChannelOpen(100)
 
 	// read proc
 	go func() {
